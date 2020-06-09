@@ -15,7 +15,7 @@ module.exports = {
 
 	output: {
 		path: path.resolve(__dirname, "build"),
-		publicPath: '/',
+		publicPath: './',
 		filename: 'bundle.js'
 	},
 
@@ -177,7 +177,7 @@ module.exports = {
 					requestTypes: ['navigate']
 				}
 			],
-			publicPath: '/'
+			publicPath: './'
 		})
 	] : []),
 
